@@ -35,10 +35,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import euclidean_distances
 from sklearn.cluster import AgglomerativeClustering
-import scipy.cluster.hierarchy as sch
 
-from scipy.spatial import Voronoi, voronoi_plot_2d
-from scipy.spatial import ConvexHull,Delaunay
 #from LaurieOnTracking import Metrica_Viz as mviz
 params=mpc.default_model_params()
 
@@ -261,7 +258,6 @@ def to_single_playing_direction(match_data):
 
 #@title
 import numpy as np
-import scipy.signal as signal
 
 def calc_player_velocities(team, smoothing=True, filter_='moving average', window=7, polyorder=1, maxspeed = 12, team_list = ["Bris", "Birm"]):
     """ calc_player_velocities( tracking_data )
