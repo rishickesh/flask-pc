@@ -11,7 +11,6 @@ Data can be found at: https://github.com/metrica-sports/sample-data
 """
 
 import pandas as pd
-import csv as csv
 import numpy as np
 
 def read_match_data(DATADIR,gameid):
