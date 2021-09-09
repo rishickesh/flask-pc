@@ -4,61 +4,39 @@ import numpy as np
 import warnings
 import json
 import requests
-import xgboost
 import re
 from math import sqrt
-import ast
 import time
 from sklearn import preprocessing
-import ipywidgets as widgets
-from ipywidgets import interact, interactive, fixed, interact_manual, interactive_output
 from mplsoccer import Pitch, VerticalPitch
 from mplsoccer.pitch import Pitch
-from sklearn.cluster import KMeans
-from collections import Counter
-from sklearn.metrics import silhouette_score
 from mplsoccer.statsbomb import read_event, EVENT_SLUG
 from matplotlib import cm
 import matplotlib
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
 from matplotlib.colors import Normalize
-from scipy.ndimage import gaussian_filter
-import math
-import socceraction.spadl as spadl
 from sklearn.metrics import brier_score_loss, roc_auc_score, log_loss
 import matplotlib.pyplot as plt
 from sklearn.metrics import brier_score_loss, roc_auc_score
-import socceraction.spadl.statsbomb as statsbomb
 warnings.filterwarnings("ignore")
 import pandas as pd
 pd.set_option('display.max_columns', None)
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
-import tqdm
 import os
 import warnings
-from math import sqrt
-from statistics import mean
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
-import moviepy.video.io.ImageSequenceClip
-import socceraction.vaep.features as fs
-import socceraction.vaep.labels as lab
 import datetime
-import socceraction.vaep.formula as vaepformula
 import matplotlib.colors as colors
-import socceraction.xthreat as xthreat
-import csv
 from LaurieOnTracking import Metrica_IO as mio
 from LaurieOnTracking import Metrica_PitchControl as mpc
 from LaurieOnTracking import Metrica_Velocities as mvelo
 import numpy as np
 import matplotlib.pyplot as plt
-import cv2
-import pyreadr
 from sklearn.metrics.pairwise import euclidean_distances
 from sklearn.cluster import AgglomerativeClustering
 import scipy.cluster.hierarchy as sch
-from collections import Counter 
+
 from scipy.spatial import Voronoi, voronoi_plot_2d
 from scipy.spatial import ConvexHull,Delaunay
 #from LaurieOnTracking import Metrica_Viz as mviz
