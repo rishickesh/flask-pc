@@ -403,6 +403,7 @@ def mpl():
 @app.route('/')
 def plot_png():
           
+    plt.ion()
     fig, ax, patches_li = plot_int([], ind)
 
     drs = []
