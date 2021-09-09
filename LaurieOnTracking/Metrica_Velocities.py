@@ -11,7 +11,6 @@ Data can be found at: https://github.com/metrica-sports/sample-data
 
 """
 import numpy as np
-import scipy.signal as signal
 
 def calc_player_velocities(team, smoothing=True, filter_='Savitzky-Golay', window=7, polyorder=1, maxspeed = 12):
     """ calc_player_velocities( tracking_data )
