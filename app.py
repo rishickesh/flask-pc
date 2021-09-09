@@ -11,10 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from flask_session import Session
 import matplotlib.patches as patches
-import streamlit as st
 from flask import Flask, send_file, make_response
-from werkzeug.wrappers import Request, Response
-from werkzeug.serving import run_simple
 import io
 #from plot import do_plot
 
