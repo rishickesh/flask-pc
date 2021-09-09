@@ -421,7 +421,7 @@ def plot_png():
     
 
 if __name__ == '__main__':
-    run_simple('localhost', 5000, app)
+    app.run()
 
 
 # In[ ]:
