@@ -12,6 +12,9 @@ import matplotlib.pyplot as plt
 from flask_session import Session
 import matplotlib.patches as patches
 from flask import Flask, send_file, make_response
+from werkzeug.wrappers import Request, Response
+from werkzeug.serving import run_simple
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
 #from plot import do_plot
 
