@@ -6,7 +6,7 @@
 import sys
 #sys.path.append("/Users/rishickesh/Downloads")
 
-from tracking_utility import *
+from .tracking_utility import *
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
