@@ -15,7 +15,6 @@ keyring==21.3.0
 lockfile==0.12.2
 lxml==4.5.2
 mock==4.0.2
-pandas==
 mypy_extensions==0.4.3
 numpy==1.19.1
 ordereddict==1.1
