@@ -18,6 +18,7 @@ mock==4.0.2
 mypy_extensions==0.4.3
 numpy==1.19.1
 ordereddict==1.1
+Flask-Session==0.3.1
 PasteScript==3.2.0
 protobuf==3.13.0
 pyOpenSSL==19.1.0
