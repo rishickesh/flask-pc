@@ -6,9 +6,10 @@
 import sys
 #sys.path.append("/Users/rishickesh/Downloads")
 
-from .tracking_utility import *
+from tracking_utility import *
 import pandas as pd
 import matplotlib.pyplot as plt
+from flask_session import Session
 import matplotlib.patches as patches
 import streamlit as st
 from flask import Flask, send_file, make_response
@@ -420,8 +421,7 @@ def plot_png():
     return Response(output.getvalue(), mimetype='image/png')
     
 
-if __name__ == '__main__':
-    app.run(debug=False)
+Session(app)
 
 
 # In[ ]:
