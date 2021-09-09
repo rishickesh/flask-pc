@@ -388,7 +388,7 @@ class DraggablePoint:
 # In[74]:
 
 ind = 20
-app1 = Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/matplot', methods=("POST", "GET"))
 def mpl():
@@ -418,7 +418,7 @@ def plot_png():
     return Response(output.getvalue(), mimetype='image/png')
     
 
-Session(app1)
+Session(app)
 
 
 # In[ ]:
