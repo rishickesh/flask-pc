@@ -4,7 +4,7 @@
 # In[1]:
 
 import sys
-sys.path.append("/Users/rishickesh/Downloads")
+#sys.path.append("/Users/rishickesh/Downloads")
 
 from tracking_utility import *
 import pandas as pd
@@ -65,7 +65,7 @@ GK_numbers = [brist_goalie, opp_goalie]
 # In[3]:
 
 
-full_match_track = pd.read_csv("/Users/rishickesh/Downloads/Tracking_sample")
+full_match_track = pd.read_csv("Tracking_sample")
 full_match_track
 
 
